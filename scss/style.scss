@@ -1,0 +1,10 @@
+@charset 'utf-8';
+
+body{height:1000vh; overflow-x:hidden;}
+.container_wide{
+    .section{
+        .section-inner01, .section-inner02{display:flex; align-items:center; overflow:hidden; transform-style:preserve-3d; will-change:transform; transition:all 1s cubic-bezier(0.215, 0.61, 0.355, 1);}
+    }
+    .margin{height:50vh;}
+    .pp{transition:all 1s cubic-bezier(0.215, 0.61, 0.355, 1); font-size:5vw; font-weight:bold;}
+}

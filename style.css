@@ -1,0 +1,28 @@
+body {
+  height: 1000vh;
+  overflow-x: hidden;
+}
+
+.container_wide .section .section-inner01, .container_wide .section .section-inner02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  will-change: transform;
+  -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.container_wide .margin {
+  height: 50vh;
+}
+.container_wide .pp {
+  -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  font-size: 5vw;
+  font-weight: bold;
+}
