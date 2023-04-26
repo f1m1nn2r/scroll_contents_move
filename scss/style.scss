@@ -22,3 +22,12 @@ section{position:relative; z-index:99; height:100vh;}
         }   
     }
 }
+
+.section04{margin:200px 0 0 0;
+    &-inner{display:flex; flex-flow:column; align-items:center;
+        & > div{display:flex; gap:30px;}
+        .rep{display:flex; justify-content:center;
+            span{line-height:1; font-size:8vw; opacity:0.2;}
+        }
+    }
+}

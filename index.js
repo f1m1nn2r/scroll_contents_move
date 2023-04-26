@@ -23,6 +23,19 @@ window.addEventListener('scroll', function(){
         section03_img[i].style.transform = `scale(${window.pageYOffset / section03.offsetTop})`
     }
 
+    // 섹션04 - 4. 텍스트 색상
+    var section04 = document.querySelector('.section04');
+    var section04_span = document.querySelectorAll('.section04 .rep span');
+    var section04_value = document.documentElement.scrollTop / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+    for(var i=0; i<section04_span.length; i++){
+        if(window.scrollY >= section04_span[i].offsetTop){
+            section04_span[i].classList.add('section04_test');
+        }else{
+            section04_span[i].classList.remove('section04_test');
+        }
+        var section04_span02 = document.querySelectorAll('.section04_test');
+        section04_span02.style.opacity = 'section04_value';
+    }
 });
 
 
